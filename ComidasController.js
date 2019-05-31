@@ -23,6 +23,10 @@ const comidas = { pratosFavoritos: [
 const getAll = () => {
    return comidas
 }
+const adicionar = (comida) => {
+   comidas.pratosFavoritos.push(comida)
+}
 module.exports = {
-   getAll
+   getAll,
+   adicionar
 }
